@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 langchain = "==0.2.14"
+pydantic = "==2.8.2"
 
 [dev-packages]
 ipykernel = "==6.29.5"
