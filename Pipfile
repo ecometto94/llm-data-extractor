@@ -7,6 +7,7 @@ name = "pypi"
 langchain = "==0.2.14"
 pydantic = "==2.8.2"
 langchain-community = "==0.2.12"
+pypdf = "==4.3.1"
 
 [dev-packages]
 ipykernel = "==6.29.5"
