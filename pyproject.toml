@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "llm-data-extractor"
+version = "0.0.1"
+description = "A POC on dynamic data extraction"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  {name = "Esteban Cometto", email = "estebancometto@gmail.com" }
+]
+maintainers = [
+  {name = "Esteban Cometto", email = "estebancometto@gmail.com" }
+]
+
+[tool.setuptools]
+package-data = {"sample" = ["*.dat"]}
